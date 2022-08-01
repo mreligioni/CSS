@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+      table {
+        border-radius: 10px;
+        overflow: hidden;
+        border-collapse: collapse;
+        box-shadow: 3px 5px 10px #888888;
+        min-width: 700px
+      }
+
+      tr {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        padding: 5px;
+      }
+
+      td {
+        padding: 15px;
+        border: none;
+      }
+
+      #free {
+        color: white;
+        text-align: center;
+        background-color: SteelBlue;
+        font-size: 20px;
+      }
+
+      #shortrow {
+        height: 5px;
+      }
+
+      #gradient {
+        background: rgb(0, 164, 255);
+        background: linear-gradient(90deg, rgba(0, 164, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(0, 164, 255, 1) 100%);
+        height: 2px;
+        padding: 0px;
+      }
+
+      #price {
+        color: white;
+        text-align: center;
+        background-color: #191970;
+        font-size: 18px;
+      }
+
+      text {
+        font-size: 58px;
+      }
+
+      #sign {
+        font-size: 18px;
+      }
+
+      #contentgrey {
+        background-color: #D3D3D3;
+      }
+
+      #blank {
+        border-bottom: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: SteelBlue;
+        height: 20px;
+        padding: 0px;
+      }
+
+      #buttoncontent {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background: rgb(1, 12, 106);
+        background: linear-gradient(0deg, rgba(1, 12, 106, 1) 48%, rgba(0, 86, 176, 1) 100%);
+        border-radius: 5px;
+        height: 50px;
+        width: 100px;
+        font-size: 18px;
+        border: none;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <tr>
+        <td id="free">Free</td>
+      </tr>
+      <tr>
+        <td id="gradient">
+          <div id="shortrow"></div>
+        </td>
+      </tr>
+      <tr>
+        <td id="price">£<text>0</text>/mo </td>
+      </tr>
+      <tr>
+        <td id="sign">Sign up today for a free account and receive: </td>
+      </tr>
+      <tr>
+        <td id="contentgrey">1 email address </td>
+      </tr>
+      <tr>
+        <td id="contentwhite">1GB of cloud storage </td>
+      </tr>
+      <tr>
+        <td id="contentgrey">Realtime Backup </td>
+      </tr>
+      <tr>
+        <td id="contentwhite">End-to-end encryption </td>
+      </tr>
+      <tr>
+        <td id="contentgrey">Access to our mobile apps </td>
+      </tr>
+      <tr>
+        <td id="blank"></td>
+      </tr>
+      <tr>
+        <td>
+          <div id="buttoncontent">
+            <button id="button">Select</button></div>
+        </td>
+      </tr>
+
+    </table>
+  </body>
+
+</html>
