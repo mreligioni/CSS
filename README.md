@@ -7,3 +7,5 @@
 4. Pricing table
 
 5. Grid page
+
+6. Simple carousel
