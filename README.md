@@ -4,4 +4,4 @@
 
 3. Easy table
 
-4. 
+4. Pricing table
