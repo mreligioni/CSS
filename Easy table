@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+    table {
+      border-radius: 10px;
+      overflow: hidden;
+      border-collapse: collapse;
+    }
+      tr {
+        background-color: #315b7d;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        padding: 5px;
+      }
+
+      th {
+        color: yellow;
+        text-align: left;
+      }
+      th, td {
+        padding: 15px;
+        border: none;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <tr>
+        <th>Movie Title</th>
+        <th>Genre</th>
+        <th>Year</th>
+        <th>Gross</th>
+      </tr>
+      <tr>
+        <td data-th="Movie Title">Star Wars</td>
+        <td data-th="Genre">Adventure, Sci-fi</td>
+        <td data-th="Year">1977</td>
+        <td data-th="Gross">$460,935,665</td>
+      </tr>
+      <tr>
+        <td data-th="Movie Title">Howard The Duck</td>
+        <td data-th="Genre">"Comedy"</td>
+        <td data-th="Year">1986</td>
+        <td data-th="Gross">$16,295,774</td>
+      </tr>
+      <tr>
+        <td data-th="Movie Title">American Graffiti</td>
+        <td data-th="Genre">Comedy, Drama</td>
+        <td data-th="Year">1973</td>
+        <td data-th="Gross">$115,000,000</td>
+      </tr>
+    </table>
+  </body>
+
+</html>
