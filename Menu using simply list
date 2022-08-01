@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      nav {
+        width: 100vw;
+        background-color: #DCDCDC;
+      }
+
+      ul {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        list-style: none;
+      }
+
+      li {
+        min-width: 100px;
+        text-align: center;
+        padding: 15px;
+        cursor: pointer;
+      }
+
+      li:hover {
+        background-color: grey;
+      }
+
+      li:hover a {
+        color: white;
+      }
+
+      a {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        color: black;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+  </body>
