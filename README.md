@@ -5,3 +5,5 @@
 3. Easy table
 
 4. Pricing table
+
+5. Grid page
